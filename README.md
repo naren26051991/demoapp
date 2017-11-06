@@ -17,3 +17,9 @@ Tech stock:
 3) Use  IntelliJ and java8
 4) Use github
 5) User maven or gradle
+
+
+
+maven commands used to run this project on eclipse
+
+clean install spring-boot:run
