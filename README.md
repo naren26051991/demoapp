@@ -23,3 +23,19 @@ Tech stock:
 maven commands used to run this project on eclipse
 
 clean install spring-boot:run
+
+install brew :
+/usr/bin/ruby -e "$(curl -fsSL  https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+install wget:
+
+brew install wget
+
+
+
+setting up elastic search :
+
+1) docker pull docker.elastic.co/elasticsearch/elasticsearch:5.6.3
+2) docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:5.6.3
+
+default username/password : elastic/changeme
